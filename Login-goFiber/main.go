@@ -56,8 +56,6 @@ func main() {
 				"error": "Invalid akun",
 			})
 		}
-
-		// Successful login
 		return c.JSON(fiber.Map{
 			"message":  "Login berhasil",
 			"realname": user.Nama,
